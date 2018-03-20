@@ -1,20 +1,35 @@
 <resources>
     <string name="app_name">PragueTourApp</string>
 
-    <string name="place1">Venceslas square</string>
-    <string name="place1text">Václavské náměstí bylo vytyčeno jako součást projektu Nového města pražského, založeného dekretem císaře Karla IV. z roku 1348. Bylo městu určeno jako jedno ze dvou hlavních tržišť, původně se nazývalo Koňský trh, zatímco na Karlově náměstí byl Dobytčí trh, na Senovážném náměstí Senný a obilný trh a na dnešním Jungmannově náměstí Kurný trh. Od roku 1650 křižovatku ulic Vodičkovy a Jindřišské zdobila kamenná kašna s pískovcovou sochou sv. Václava od Jana Jiřího Bendla z roku 1678.Název Václavské náměstí (nejprve v podobě Svatováclavské náměstí) byl zaveden roku 1848, na návrh prezentovaný veřejnosti v tomto bouřlivém roce Karlem Havlíčkem Borovským. Dříve v témže roce se na Koňském trhu konaly tři slavnostní mše, z nichž poslední vyústila ve svatodušní bouře. Raně barokní jezdecký pomník sv. Václava tehdy stával uprostřed, ale bránil dopravě, takže byl přesunut výše ke Koňské bráně. Původní kamenná socha od Jana Jiřího Bendla byla v roce 1879 přemístěna do Štulcových sadů na Vyšehradě, tam po roce 1912 nahrazena kopií a originál umístěn do stálé expozice Lapidária Národního muzea na Výstavišti v Praze - Holešovicích.
-</string>
-    <string name="place1mobile">+420 123 456 789</string>
-    <string name="place2">Old Town</string>
-    <string name="place3">Charles Bridge</string>
-    <string name="place4">Prague Castle</string>
-    <string name="place5">Kampa</string>
-
+    <!-- GridView category naming -->
     <string name="tour1">Tour1</string>
     <string name="tour2">Tour2</string>
     <string name="tour3">Tour3</string>
     <string name="tour4">Tour4</string>
     <string name="tour5">Tour5</string>
+
+    <!-- Tour1 places description -->
+    <!-- Places description -->
+    <string name="place1">Venceslas square</string>
+    <string name="place1text">Václavské náměstí bylo vytyčeno jako součást projektu Nového města pražského, založeného dekretem císaře Karla IV. z roku 1348. Bylo městu určeno jako jedno ze dvou hlavních tržišť, původně se nazývalo Koňský trh, zatímco na Karlově náměstí byl Dobytčí trh, na Senovážném náměstí Senný a obilný trh a na dnešním Jungmannově náměstí Kurný trh. Od roku 1650 křižovatku ulic Vodičkovy a Jindřišské zdobila kamenná kašna s pískovcovou sochou sv. Václava od Jana Jiřího Bendla z roku 1678.Název Václavské náměstí (nejprve v podobě Svatováclavské náměstí) byl zaveden roku 1848, na návrh prezentovaný veřejnosti v tomto bouřlivém roce Karlem Havlíčkem Borovským. Dříve v témže roce se na Koňském trhu konaly tři slavnostní mše, z nichž poslední vyústila ve svatodušní bouře. Raně barokní jezdecký pomník sv. Václava tehdy stával uprostřed, ale bránil dopravě, takže byl přesunut výše ke Koňské bráně. Původní kamenná socha od Jana Jiřího Bendla byla v roce 1879 přemístěna do Štulcových sadů na Vyšehradě, tam po roce 1912 nahrazena kopií a originál umístěn do stálé expozice Lapidária Národního muzea na Výstavišti v Praze - Holešovicích.
+</string>
+    <string name="place1mobile">+420 123 456 789</string>
+
+
+    <string name="place2">Old Town</string>
+    <string name="place2text">Václavské náměstí....
+</string>
+    <string name="place2mobile">+420 123 456 789</string>
+
+    <string name="place3">Charles Bridge</string>
+
+
+    <string name="place4">Prague Castle</string>
+
+
+    <string name="place5">Kampa</string>
+
+
 
 
 </resources>

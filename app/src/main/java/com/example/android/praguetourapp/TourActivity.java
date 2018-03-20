@@ -1,5 +1,6 @@
 package com.example.android.praguetourapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -15,7 +16,7 @@ public class TourActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tour);
 
         // Find the view pager that will allow the user to swipe between fragments
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPagerTour);
+        ViewPager viewPager = findViewById(R.id.viewPagerTour);
 
         // Create an adapter that knows which fragment should be shown on each page
         TourFragmentAdapter adapter = new TourFragmentAdapter(this, getSupportFragmentManager());
@@ -24,7 +25,7 @@ public class TourActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
 
         // Find the tab layout that shows the tabs
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = findViewById(R.id.tabs);
 
         // Connect the tab layout with the view pager. This will
         //   1. Update the tab layout when the view pager is swiped
@@ -32,5 +33,19 @@ public class TourActivity extends AppCompatActivity {
         //   3. Set the tab layout's tab names with the view pager's adapter's titles
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
+
+        Intent intent = getIntent();
+        int pageID = intent.getIntExtra("pageID", 0);
+        switch (pageID) {
+            case 0:
+                viewPager.setCurrentItem(0);
+                break;
+            case 1:
+                viewPager.setCurrentItem(1);
+                break;
+            case 2:
+                viewPager.setCurrentItem(2);
+                break;
+        }
     }
 }

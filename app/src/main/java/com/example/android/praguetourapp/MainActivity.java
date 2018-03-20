@@ -60,12 +60,15 @@ public class MainActivity extends AppCompatActivity {
                 switch (position) {
                     case 0:
                         intent = new Intent(getApplicationContext(), TourActivity.class);
+                        intent.putExtra("pageID", 0);
                         break;
                     case 1:
-                        intent = new Intent(getApplicationContext(), Tour2Fragment.class);
+                        intent = new Intent(getApplicationContext(), TourActivity.class);
+                        intent.putExtra("pageID", 1);
                         break;
                     default:
-                        intent = new Intent(getApplicationContext(), Tour3Fragment.class);
+                        intent = new Intent(getApplicationContext(), TourActivity.class);
+                        intent.putExtra("pageID", 2);
                         break;
                 }
 
@@ -77,7 +80,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
-
-
-
