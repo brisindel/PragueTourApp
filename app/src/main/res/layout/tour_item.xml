@@ -32,7 +32,7 @@
             android:layout_below="@+id/tv_namePlace"
             android:layout_toLeftOf="@+id/play_button"
             android:layout_toStartOf="@+id/play_button"
-            android:hint="textCity" />
+            android:hint="@string/loremipsum" />
 
         <TextView
             android:id="@+id/tv_mobile"
@@ -40,7 +40,7 @@
             android:layout_below="@+id/tv_textPlace"
             android:layout_toLeftOf="@+id/play_button"
             android:layout_toStartOf="@+id/play_button"
-            android:hint="+420 123 456 789" />
+            android:hint="@string/phone" />
 
         <ImageView
             android:id="@+id/play_button"

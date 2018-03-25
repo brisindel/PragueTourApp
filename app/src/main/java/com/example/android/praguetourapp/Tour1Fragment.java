@@ -9,7 +9,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Tour1Fragment extends android.support.v4.app.Fragment {
 
