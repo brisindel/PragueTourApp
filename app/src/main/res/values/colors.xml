@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#203287</color>
     <color name="colorAccent">#FF4081</color>
-
-    <!-- ViewPager background color  -->
-    <color name="yellow">#FD8E09</color>
     <color name="white">#FFFFFF</color>
-    <color name="green">#00b300</color>
 
-    <!-- Gray color for background CitySlide -->
-    <color name="gray">#907e7e7e</color>
-    <color name="gradient_start">#007e7e7e</color>
-    <color name="gradient_end">#7e7e7e</color>
+    <!-- Purple gradient background text -->
+    <color name="gradient_wc_start">#007e7e7e</color>
+    <color name="gradient_wc_end">#551a8b</color>
+
+    <!-- Purple ListView backgroud text color -->
+    <color name="purple1">#3b1260</color>
+    <color name="purple2">#551a8b</color>
+    <color name="purple3">#621ea0</color>
+    <color name="purple4">#6f22b6</color>
 
 </resources>

@@ -11,10 +11,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by uLeho on 18.03.2018.
- */
-
 public class Tour3Fragment extends android.support.v4.app.Fragment {
 
     public Tour3Fragment() {
@@ -41,7 +37,7 @@ public class Tour3Fragment extends android.support.v4.app.Fragment {
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s. The
         // adapter knows how to create list items for each item in the list.
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour3, R.color.gray);
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour3, R.color.purple3);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

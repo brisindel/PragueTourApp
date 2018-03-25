@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Create an arrayList of words for Categories in GridView
         ArrayList<TourCategoryDetail> tourCategoryList = new ArrayList<TourCategoryDetail>();
-        tourCategoryList.add(new TourCategoryDetail(R.drawable.wenceslassquare, R.string.tour1));
-        tourCategoryList.add(new TourCategoryDetail(R.drawable.oldtownsquare, R.string.tour2));
-        tourCategoryList.add(new TourCategoryDetail(R.drawable.charlesbridge, R.string.tour3));
-        tourCategoryList.add(new TourCategoryDetail(R.drawable.praguecastle, R.string.tour4));
+        tourCategoryList.add(new TourCategoryDetail(R.drawable.malostranskemosteckeveze, R.string.tour1));
+        tourCategoryList.add(new TourCategoryDetail(R.drawable.palacovezahrady, R.string.tour2));
+        tourCategoryList.add(new TourCategoryDetail(R.drawable.kostelsvatehofrantiskazasisi, R.string.tour3));
+        tourCategoryList.add(new TourCategoryDetail(R.drawable.sovovymlyny, R.string.tour4));
 
         // Create adapter
         TourCategoryAdapter itemsAdapter = new TourCategoryAdapter(this, tourCategoryList);

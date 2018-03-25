@@ -13,8 +13,8 @@ public class ViewPagerAdapter extends PagerAdapter {
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer [] images = {R.drawable.wenceslassquare, R.drawable.oldtownsquare, R.drawable.charlesbridge, R.drawable.praguecastle, R.drawable.kampa};
-    private Integer [] names = {R.string.place1, R.string.place2, R.string.place3, R.string.place4, R.string.place5 };
+    private Integer [] images = {R.drawable.charlesbridge, R.drawable.oldtownsquare, R.drawable.wenceslassquare, R.drawable.praguecastle, R.drawable.kampa};
+    private Integer [] names = {R.string.place3, R.string.place2, R.string.place1, R.string.place4, R.string.place5 };
 
     public ViewPagerAdapter (Context context) {
         this.context = context;

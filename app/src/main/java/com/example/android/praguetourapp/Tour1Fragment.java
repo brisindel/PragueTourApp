@@ -17,22 +17,6 @@ public class Tour1Fragment extends android.support.v4.app.Fragment {
         // Required empty public constructor
     }
 
-    private static final Random RANDOM = new Random();
-
-    public static int getRandomPlacesDrawable() {
-        switch (RANDOM.nextInt(4)) {
-            default:
-            case 0:
-                return R.drawable.charlesbridge;
-            case 1:
-                return R.drawable.kampa;
-            case 2:
-                return R.drawable.oldtownsquare;
-            case 3:
-                return R.drawable.wenceslassquare;
-        }
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -55,7 +39,7 @@ public class Tour1Fragment extends android.support.v4.app.Fragment {
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s. The
         // adapter knows how to create list items for each item in the list.
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour1, R.color.yellow);
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour1, R.color.purple1);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

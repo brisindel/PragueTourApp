@@ -71,6 +71,12 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                     <TextView
+                        android:id="@+id/first_cv_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/app_name" />
+
+                    <TextView
                         android:id="@+id/first_cv"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

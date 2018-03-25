@@ -36,7 +36,7 @@ public class Tour4Fragment extends android.support.v4.app.Fragment {
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s. The
         // adapter knows how to create list items for each item in the list.
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour4, R.color.colorPrimary);
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour4, R.color.purple4);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
