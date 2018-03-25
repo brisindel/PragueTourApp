@@ -11,20 +11,16 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by uLeho on 18.03.2018.
- */
-
 public class PlacesAdapter extends ArrayAdapter<Places> {
 
-    /** Resource ID for the background color for this list of words */
+    // Resource ID for the background color for this list of words
     private int mColorResourceId;
 
     /**
      * Create a new {@link PlacesAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param places is the list of {@link Places}s to be displayed.
+     * @param context         is the current context (i.e. Activity) that the adapter is being created in.
+     * @param places          is the list of {@link Places}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of words
      */
     public PlacesAdapter(Context context, ArrayList<Places> places, int colorResourceId) {
@@ -41,23 +37,21 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
                     R.layout.tour_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
+        // Get the {@link Places} object located at this position in the list
         Places currentPlaces = getItem(position);
 
-        // Find the ImageView in the list_item.xml layout with the ID image.
+        // Find the ImageView in the tour_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.img_detail);
         imageView.setImageResource(currentPlaces.getImage());
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
+        // Find the TextView in the tour_item.xml layout with name place.
         TextView namePlaceTV = (TextView) listItemView.findViewById(R.id.tv_namePlace);
-        // Get the Miwok translation from the currentWord object and set this text on
-        // the Miwok TextView.
+        // Set this text on TV
         namePlaceTV.setText(currentPlaces.getNamePlace());
 
-        // Find the TextView in the list_item.xml layout with the ID default_text_view.
+        // Find the TextView in the tour_item.xml layout with the text place.
         TextView textPlaceTV = (TextView) listItemView.findViewById(R.id.tv_textPlace);
-        // Get the default translation from the currentWord object and set this text on
-        // the default TextView.
+        // Set this text on TV
         textPlaceTV.setText(currentPlaces.getTextPlace());
 
         // Set the theme color for the list item
@@ -67,8 +61,7 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
 
-        // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
-        // the ListView.
+        // Return the whole list item layout that can be shown in the ListView.
         return listItemView;
     }
 }

@@ -28,19 +28,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Create CitySlide viewPager
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         viewPager.setAdapter(viewPagerAdapter);
         indicator.setViewPager(viewPager);
 
-        // Create an arrayList of words
+        // Create an arrayList of words for Categories in GridView
         ArrayList<TourCategoryDetail> tourCategoryList = new ArrayList<TourCategoryDetail>();
         tourCategoryList.add(new TourCategoryDetail(R.drawable.wenceslassquare, R.string.tour1));
         tourCategoryList.add(new TourCategoryDetail(R.drawable.oldtownsquare, R.string.tour2));
         tourCategoryList.add(new TourCategoryDetail(R.drawable.charlesbridge, R.string.tour3));
         tourCategoryList.add(new TourCategoryDetail(R.drawable.praguecastle, R.string.tour4));
-        tourCategoryList.add(new TourCategoryDetail(R.drawable.kampa, R.string.tour5));
 
         // Create adapter
         TourCategoryAdapter itemsAdapter = new TourCategoryAdapter(this, tourCategoryList);
@@ -66,9 +66,13 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), TourActivity.class);
                         intent.putExtra("pageID", 1);
                         break;
-                    default:
+                    case 2:
                         intent = new Intent(getApplicationContext(), TourActivity.class);
                         intent.putExtra("pageID", 2);
+                        break;
+                    default:
+                        intent = new Intent(getApplicationContext(), TourActivity.class);
+                        intent.putExtra("pageID", 3);
                         break;
                 }
 

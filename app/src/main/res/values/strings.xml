@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <resources>
     <string name="app_name">PragueTourApp</string>
 
@@ -6,30 +7,138 @@
     <string name="tour2">Tour2</string>
     <string name="tour3">Tour3</string>
     <string name="tour4">Tour4</string>
-    <string name="tour5">Tour5</string>
 
-    <!-- Tour1 places description -->
-    <!-- Places description -->
-    <string name="place1">Venceslas square</string>
-    <string name="place1text">Václavské náměstí bylo vytyčeno jako součást projektu Nového města pražského, založeného dekretem císaře Karla IV. z roku 1348. Bylo městu určeno jako jedno ze dvou hlavních tržišť, původně se nazývalo Koňský trh, zatímco na Karlově náměstí byl Dobytčí trh, na Senovážném náměstí Senný a obilný trh a na dnešním Jungmannově náměstí Kurný trh. Od roku 1650 křižovatku ulic Vodičkovy a Jindřišské zdobila kamenná kašna s pískovcovou sochou sv. Václava od Jana Jiřího Bendla z roku 1678.Název Václavské náměstí (nejprve v podobě Svatováclavské náměstí) byl zaveden roku 1848, na návrh prezentovaný veřejnosti v tomto bouřlivém roce Karlem Havlíčkem Borovským. Dříve v témže roce se na Koňském trhu konaly tři slavnostní mše, z nichž poslední vyústila ve svatodušní bouře. Raně barokní jezdecký pomník sv. Václava tehdy stával uprostřed, ale bránil dopravě, takže byl přesunut výše ke Koňské bráně. Původní kamenná socha od Jana Jiřího Bendla byla v roce 1879 přemístěna do Štulcových sadů na Vyšehradě, tam po roce 1912 nahrazena kopií a originál umístěn do stálé expozice Lapidária Národního muzea na Výstavišti v Praze - Holešovicích.
-</string>
-    <string name="place1mobile">+420 123 456 789</string>
-
-
-    <string name="place2">Old Town</string>
-    <string name="place2text">Václavské náměstí....
-</string>
-    <string name="place2mobile">+420 123 456 789</string>
-
-    <string name="place3">Charles Bridge</string>
-
-
-    <string name="place4">Prague Castle</string>
-
-
+    <!-- Places Intro -->
+    <string name="place1">Václavské náměstí</string>
+    <string name="place2">Staroměstské náměstí</string>
+    <string name="place3">Karlův Most</string>
+    <string name="place4">Pražský hrad</string>
     <string name="place5">Kampa</string>
 
+    <!-- Detail texts -->
+    <string name="Title1">Where to find</string>
+    <string name="loremipsum">Lorem ipsum</string>
+    <string name="Title2">About place</string>
+    <string name="Adress">Křižovnické náměstí 1040/4 \n
+    110 00 Praha-Staré Město \n
+    <b>GPS:</b> 50.086174,14.414663</string>
 
+    <!-- Places Tour1 -->
+    <string name="place11">Obecní dům</string>
+    <string name="place12">Prašná brána</string>
+    <string name="place13">Dům U Černé matky boží</string>
+    <string name="place14">Kostel sv. Jakuba</string>
+    <string name="place15">Ungelt</string>
+    <string name="place16">Staroměstské náměstí</string>
+    <string name="place17">Chrám Panny Marie před Týnem</string>
+    <string name="place18">Dům U Kamenného zvonu</string>
+    <string name="place19">Pomník mistra Jana Husa</string>
+    <string name="place20">Staroměstská radnice</string>
+    <string name="place21">Kostel sv. Mikuláše</string>
+    <string name="place22">Židovské město</string>
+    <string name="place11text">Nyní se přesuneme v čase do období čtrnáctého století. Do doby, kdy na místě současného Obecního domu na Náměstí republiky v Praze, stávalo honosné sídlo českých králů jménem Králův dvůr(nebo také Královský dvůr). Ze dvora vyjížděly korunovační průvody, vedoucí až na Pražský hrad. Nyní se s touto památkou seznámíme.</string>
+    <string name="place12text">Pokud byste dnes na území hlavního města Prahy hledali nejvýznamnější bránu, stanuli byste přesně pod památkou, kterou vám chceme v tomto článku představit. Pod branou projížděly nejen korunovační průvody českých králů, neboť právě tato brána zahajovala Korunovační – Královskou cestu na Pražský hrad, ale procházela tudy jedna z hlavních východočeských silnic, která vedla například z Kutné Hory.</string>
+    <string name="place13text">Dům u Černé matky boží se nachází na královské cestě nedaleko Prašné brány.V tomto článku Vás seznámíme se zajímavostmi a legendami, které jsou spojeny s tímto unikátním domem.</string>
+    <string name="place14text">Kostel svatého Jakuba nedaleko Staroměstského náměstí byl svědkem mnoha historických událostí. Konala se zde korunovační hostina českého krále Jana Lucemburského a dokonce zde bylo vystaveno mrtvé tělo císaře a otce vlasti  Karla IV. Svatojakubský kostel, kterému se dostalo čestného titulu basilica minor, je známý i díky Foglarově Záhadě hlavolamu.</string>
+    <string name="place15text">Ohrazený dvůr s celnicí pro cizí kupce – zde stával již ve 12.století. Každá obchodní karavana zde musela předložit své zboží k proclení (um Geld – odtud dnešní název) a panovník jim za tento poplatek poskytoval ochranu. Clo se zde platilo až do konce 16. století.</string>
+    <string name="place16text">Staroměstské náměstí v Praze je podle mnoha turistů nejkrásnějším náměstím v Evropě. Turisté navštěvují toto náměstí hlavně kvůli Orloji, na kterém sledují pohybující se apoštoly. Náměstí je ale mnohem zajímavější a tajemnější, má nezaměnitelnou a velmi dlouhou historii. Bylo svědkem mnoha dějinných událostí a i dnes je centrem všeho dění v Praze.</string>
+    <string name="place17text">Chrám Panny Marie před Týnem je postaven v gotickém slohu, dvojice jeho 80 m vysokých věží, z nichž jižní je o poznání silnější, tvoří protipól Staroměstské radniční věži. Se stavbou chrámu bylo započato ve 14. století na místě původního románského kostelíka z 12. století, který sloužil jako špitální kostel pro cizí kupce, kteří v této době přebývali v Ungeltu.</string>
+    <string name="place18text">Dům U Kamenného zvonu na východní straně náměstí je snad nejkrásnější stavbou Staroměstského náměstí. Tento dům pravděpodobně patřil do majetku královny Elišky Přemyslovny – manželky Jana Lucemburského. Jedná se o stavbu původně románskou, jak o tom svědčí ve sklepě nalezené zdivo z 12. století.</string>
+    <string name="place19text">Píše se 6. července roku 1915, kdy byl na Staroměstském náměstí, mezi Mariánským sloupem a palácem Kinských, slavnostně odhalen Pomník mistra Jana Husa. Tento den byl vybrán proto, že se jednalo o den pětistého výročí upálení Husa v Kostnici.  Pojďme se seznámit s dominantou náměstí.</string>
+    <string name="place20text">Jedno z nejtajemnějších míst Prahy, které denně přitahuje tisíce turistů je orloj na Staroměstské radnici. Čím je orloj tak výjimečný?  Proč, když diváci shlédnou malé představení apoštolů a lakomec zatřese svým měšcem, začnou nadšeně tleskat ?  Je orloj obyčejný hodinářský stroj anebo má v sobě i něco jiného ? </string>
+    <string name="place21text">Kostel sv. Mikuláše je původem gotický a sloužil jako farní kostel Starého Města ještě před dokončením Týnského chrámu. Po bitvě na Bílé hoře v roce 1620 a následné rekatolizaci Čech kostel získali benediktini, v letech 1732 – 1735 byl však přestavěn ve vrcholně barokním slohu Kiliánem Ignácem Dientzenhoferem.</string>
+    <string name="place22text">Praha byla od nepaměti spojená se židovskou komunitou. Podle historických pramenů jsou první informace o židovském obyvatelstvu v Praze z roku 1200 našeho letopočtu, ale je spíše pravděpodobné, že zde žili od nepaměti.</string>
 
+    <!-- Places Tour2 -->
+    <string name="place23">Ministerstvo průmyslu a obchodu</string>
+    <string name="place24">Anežský klášter</string>
+    <string name="place25">Právnická fakulta</string>
+    <string name="place26">Rudolfinum</string>
+    <string name="place27">Mánesův most</string>
+    <string name="place28">Klementinum</string>
+    <string name="place29">Karlův most</string>
+    <string name="place30">Smetanovo nábřeží</string>
+    <string name="place31">Krannerova kašna</string>
+    <string name="place32">Národní divadlo</string>
+    <string name="place33">Žofín - Slovanský ostrov</string>
+    <string name="place34">Mánes</string>
+    <string name="place23text">Budova sídla Ministerstva průmyslu a obchodu zaujímá dominantní postavení na pražském nábřeží. Vznikla v roce 1928 zásluhou architekta Josefa Fanty. V roce 1934 zde bylo slavnostně otevřeno sídlo tehdejšího Ministerstva průmyslu, obchodu a živností a Patentního úřadu. Stavba má tři patra a obdélníkový půdorys. Hlavní vchod vystupuje do popředí a v horní části je ukončen několika
+sochami v nadživotní velikosti. Ty mají symbolizovat Průmysl, Obchod, Řemesla a Plavbu. Sochařská výzdoba budovy obsahuje celkem sto dvacet soch. Budově Ministerstva dominuje především prosklená kupole na samotném vrcholku stavby, a mohutné věže po stranách.</string>
+    <string name="place24text">Anežský klášter byl založen v roce 1233 Anežkou Přemyslovnou a králem Václavem I. Svatá Anežka Česká zde založila ženský klášter klarisek, ke kterým se později připojil mužský konvent menších bratří. Hlavní dominantou komplexu,
+kterou si při procházce klášterním komplexem můžete prohlédnout, je klášterní kostel svatého Františka. V areálu se dále nachází klášterní kuchyně, kaple svaté
+Maří Magdalény, dále pak kostel svatého Salvátora, kaple svaté Barbory či dům abatyše. V klášterním komplexu se nachází významné královské pohřebiště. Poslední odpočinek zde nalezl například král Václav I., Anežka Česká, Anežka Přemyslovna, Kunhuta Haličská. V současnosti v klášteře sídlí jedna ze sekcí Národní galerie v Praze. Při zastávce si zde máte možnost prohlédnout expozici s názvem Středověké umění v Čechách a střední Evropě 1200–1550. Kudy dál
+Cesta, lemující vltavský břeh, nás zavede k první mostu na trase, kterým je Čechův most. V blízkosti mostu na náměstí Curieových se rozprostírá významný
+Hotel InterContinental Praha. Přímo naproti hotelu uvidíme historickou budovu
+Právnické fakulty Univerzity Karlovy.</string>
+    <string name="place25text">Historická budova Právnické fakulty Univerzity Karlovy na pražském nábřeží, byla postavena v roce 1926. Podle projetu Jana Kotěry a Ladislava Maňocha vznikla tato překrásná novoklasicistní stavba. Pozoruhodný je mimo jiné interiér fakulty s dominantním vstupním vestibulem. Zde jsou po stranách umístěny vysoké pilíře obložené mramorem. Celý prostor je osvětlen skleněným pásem u
+stropu. Hlavní dvorana fakulty představuje třípatrový prostor, který je v přízemí fakulty obložený žulou a shora krytý skleněnou střechou. Právnická fakulta je jednou ze čtyř klasických fakult Univerzity Karlovy. Fakulta práv byla založena již v roce 1348. V současnosti má fakulta šestnáct kateder a pět ústavů a vyučuje se zde pětiletý magisterský a tříletý doktorský program.</string>
+    <string name="place26text">Pražské Rudolfinum bylo vystavěno v letech 1876 – 1881. Stavba je dílem architekta Josefa Zítka a také stavitele Josefa Schulze. Novorenesanční
+budova dostala svůj název Rudolfinum na počest následníka habsburského trůnu, arcivévody Rudolfa. Rudolfinum vzniklo jako kulturní budova pro pořádání významných společenských akcí. Jak si můžete sami povšimnout, je výzdoba fasády, ale také interiéru velmi bohatá. Podíleli se na ní totiž nejznámější čeští umělci té doby. Od roku 1919 se Rudolfinum stalo sídlem tehdejší Poslanecké sněmovny. Roku 1940 však bylo přebudováno zpět na kulturní palác, kdy ke kulturním účelům slouží dodnes. Kromě výstavních a jiných reprezentativních prostor, dominuje budově tzv. Dvořákova síň. Tato nejvýznamnější prostora, unikátní nejen pro překrásnou výzdobu a dokonalou akustiku, je dějištěm významných koncertů a jiných společenských akcí. V současné době je budova sídlem České filharmonie a Galerie Rudolfinum.</string>
+    <string name="place27text">Zde se nám otevře krásný pohled na Pražský hrad. My most přejdeme a budeme dál pokračovat po nábřeží ke Karlovu mostu. Tato cesta patří mezi nejkrásnější, protože nám Právnická fakulta Univerzity Karlovy Rudolfinum umožňuje obdivovat krásné památky Malé strany na druhém břehu řeky. Náhle se, ale cesta prudce zlomí doleva a přivede nás před areál Klementina do ulice Křižovnické. Zde se dáme doleva Křižovnickou ulicí podél linky tramvaje až na Křižovnické náměstí. Po levé straně se stále rozprostírá monumentální komplex Klementina (druhého největšího komplexu budov po Pražském hradu).</string>
+    <string name="place28text">Nyní jsme zastavili na Křižovnickém náměstí. Po vaší levici se rozprostírá Klementinum, které je díky své rozloze, považováno za jeden z největších stavebních komplexů v Evropě. Jedná se o nejstarší a největší jezuitskou kolej
+v Čechách. Tento ranně barokní komplex byl postaven jezuitským řádem v letech 1653–1726. Kromě kolejí zde byly vybudovány učebny a rozlehlé sály. Mimo jiné zde sídlila jedna tehdejších největších knihoven a také zde byla provozována jedna nejvýznamnějších tiskáren své doby. V areálu se kromě ubytovacích a učebních prostor nacházely také hospodářské a náboženské stavby. Proto byste při návštěvě Klementina neměli vynechat prohlídku kostela svatého Salvátora, svatého Klimenta, Vlašskou kapli Nanebevzetí Panny Marie či unikátní Zrcadlovou kapli. V roce 1722 byla v Klementinu založena významná astronomická observatoř. Dalším významným rokem v dějinách Klementina byl rok 1752, kdy zde začala být prováděna hydrometeorologická měření a pozorování. Od roku 1882 v Klementinu sídlila Filozofická a Teologická
+fakulta Karlo-Ferdinandovy univerzity. V současné době zde sídlí Národní knihovna České republiky, která obsahuje množství cenných unikátů. V astronomické věži od roku 1775 nepřetržitě pracuje meteorologická observatoř, která již více než dvě stě let měří a zaznamenává
+klimatické změny v Praze.</string>
+    <string name="place29text">Naproti Klementinu, za Staroměstskou mosteckou branou, můžete spatřit další světový unikát. Karlův most je nejvýznamnější gotická památka staré Prahy, a v současné době patří k nejzachovalejším středověkým mostům Evropy. Most byl postaven za vlády Karla IV. v roce 1357. Dále je Karlův most druhý nejstarší dochovaný most v České republice. Unikátní stavba je dílem významného stavitele Petra Parléře. Díky své bohaté sochařské výzdobě patří mezi nejkrásnější mosty světa, proto byste při procházce po pražském nábřeží, neměli prohlídku mostu vynechat. Máte tak jedinečnou možnost, prohlédnout si
+ojedinělé sochy světců, které zhotovili významní barokní sochaři. Karlův most se také nachází na trase Královské cesty. Jednalo se o trasu, kudy projížděly korunovační průvody českých panovníků, směrem na Pražský hrad, kde slavnostní ceremoniál probíhal. Z Karlova mostu se také otevírá překrásný výhled na významné pražské památky.</string>
+    <string name="place30text">Ojedinělý výhled na Karlův most se vám naskytne z Novotného lávky. Lávka je umístěna přímo nad hladinou řeky Vltavy. Dle historických pramenů na těchto místech ve čtrnáctém století stávalo několik mlýnů. Tyto budovy byly později přestavěny a dnes se na Novotného lávce nachází klub Karlovy lázně a Muzeum Bedřicha Smetany. Lávce dominuje Staroměstská vodá- renská věž a pomník hudebního skladatele Bedřicha Smetany. Nezapomeňte si povšimnout jedné zajímavosti. Pod Novotného lávkou a především pod budovami, protéká řeka Vltava.</string>
+    <string name="place31text">My stále pokračujeme k další křižovatce. Na této rušné křižovatce vyčkáme na zelenou barvu semaforu a přejdeme k Národnímu divadlu. Dříve, ale než křižovatku přejdeme podívejte se na druhou stranu, kde uvidíme nejznámější
+pražskou kavárnu – Slavie. A ptáte se, jaký most jsme přešli? Jedná se o Most Legií, který představuje důležitou spojnici mezi Starým městem a Malou stranou.</string>
+    <string name="place32text">Nedaleko vltavského břehu se pyšní stavba, která patří mezi velice významné stavby a především mezi národní dědictví. Základní kámen Národního divadla byl položen v roce 1868. Stavba probíhala pod vedením architekta Josefa Zítka. Na bohaté výzdobě interiéru pracovala řada významných českých umělců té doby, jako Mikoláš Aleš, František Ženíšek, Josef Václav Myslbek, Václav Brožík
+a další. Nešťastná náhoda se stala při stavebních pracích 12. srpna roku 1881, kdy se v budově Národního divadla rozpoutal obrovský požár. Plameny pohltily značnou část divadla. Díky veřejné sbírce bylo divadlo opraveno a v roce 1883 znovu otevřeno. Během historie Národního divadla se na jevišti vystřídalo množství významných umělců. V současnosti se pod střechou Národního divadla nacházejí čtyři hlavní umělecké soubory, kterými jsou opera, činohra, balet a Laterna magika. Národní divadlo spravuje dále čtyři scény, a to Národní divadlo, Stavovské divadlo, Nová scéna a Divadlo Kolowrat. Diváci tak mají možnost shlédnout přestavení nejvýznamnějších domácích i zahraničních
+umělců, a to tvorbu jak klasickou, tak moderního ražení.</string>
+    <string name="place33text">Slovanský ostrov byl mezi pražským obyvatelstvem považován za matku pražských ostrovů na Vltavě. Místní mu však neřeknou jinak, než Žofín. Je ale také jeden z nejmladších. Ostrov nejspíše vznikal mezi 17. a 18. stoletím
+náplavami, které přinášela v průběhu času řeka. Nejdříve vznikaly malé ploché ostrůvky a ty se pak s časem přirozeně a přírodně spojovaly v celek. Zlomem pro vývoj na ostrově byl rok 1830, kdy ostrov zakoupil mlynář Václav Antonín Novotný a postavil tady rodinný dům a místo starého dřevěného hostince patrovou budovu restaurace a ještě lázně. Ty měly dvě části, vanovou a parní. Byly to čtyři budovy s klasicistní fasádou a zanikly již na přelomu 20. a 30. let
+20. století. Restaurace už tenkrát měla taneční sály. Prvním otevíracím dnem tanečního sálu byl 30. květen 1837, kdy se v něm pořádal první bál. Nejen budova na ostrově skvěla novotou a byla atrakcí pro Pražany. Novotný nechal
+v téže době předělat a upravit celý ostrov od vyhlídky v severním cípu až po vysázení dalších stromů.</string>
+    <string name="place34text">Nad funkcionalistickým komplexem Mánes se do výše tyčí mohutná věž, která jistě při procházce upoutá vaši pozornost. Jedná se o Šítkovskou vodárenskou věž, která zde byla vystavěna v šestnáctém století, a nahradila tak původní dřevěnou věž. Stavba dosahuje do výšky sedmačtyřicet metrů. Vodárenská věž zajišťovala rozvod vody z Vltavy do kašen a domů na Novém a Starém Městě pražském. Ke svému účelu sloužila až do roku 1848. Na konci devatenáctého století bylo demontováno vodá- renské zařízení. Údajně byla ve věži v roce 1989 objevena tajná pozorovatelna Státní bezpečnosti (Stb). V blízkosti vodárenské věže se nachází budova Spolku výtvarných umělců Mánes. Tento komplex vystavěl Spolek v letech 1928–30. Funkcionalistický komplex restaurace, klubovny a výstavní síně navrhl Otakar Novotný. Dodnes se zde konají výstavy a společenské akce.</string>
 
+    <!-- Places Tour3 -->
+    <string name="place35">Valdštejnský palác – Senát Parlamentu České republiky</string>
+    <string name="place36">Palácové zahrady pod Pražským hradem</string>
+    <string name="place37">Kostel sv. Tomáše</string>
+    <string name="place38">Malostranské náměstí</string>
+    <string name="place39">Nerudova Ulice</string>
+    <string name="place40">Sloup nejsvětější trojice</string>
+    <string name="place41">Chrám sv. Mikuláše</string>
+    <string name="place42">Kostel panny Marie Vítězné</string>
+    <string name="place43">Kostel panny Marie pod řetězem</string>
+    <string name="place44">Sovovy mlýny</string>
+    <string name="place35text">Senát Parlamentu České republiky
+Při procházkách po Malé Straně jistě nesmíme vynechat jeden z největších klenotů, který se zde nachází. Valdštejnský palác je plný mnoha překrásných architektonických prvků, a to jak v interiéru, tak i venkovní části. Jedná se o jednu z nejvýraznějších staveb českého raného baroka. A čím je vlastně palác proslulý? V současné době je palác sídlem Senátu Parlamentu České republiky. Nahlédněme tedy společně do celého komplexu, který kromě paláce tvoří dále také Valdštejnská jízdárna a Valdštejnská zahrada s mnoha jezírky, sochami a přírodními zajímavostmi.</string>
+    <string name="place36text">Dominantní zahradou, ale také hlavním dějištěm veškerých kulturních a společenských akcí je parter Ledeburské zahrady. Parter se rozprostírá na ploše 880 m2. Převážnější část této rozlohy tvoří zatravněná plocha. Zajímavostí je, že jsou zde v půdě zapuštěné držáky, do kterých následně bývají při společenských událostech zapuštěna jednotlivá sedadla. Kapacita pro místa na sezení činí maximálně dvě stě šestapadesát sedadel. Ta poté mohou směřovat buďto k již zmíněnému dvouramennému monumentálnímu schodišti, či naopak na druhou stranu k sale terreně. Tato zahrada nese název po hraběti Adolfovi z Ledebouru, který v roce 1852 získal přilehlý palác. V té době byl jižní svah zcela zpustlý a zahrada zde byla zřízena až v roce 1665 Václavem z Kolovratem.</string>
+    <string name="place37text">Dnes se vydáme do Letenské ulice nedaleko Malostranského náměstí, kde se už osm staletí pyšní překrásný kostel svatého Tomáše. Kostel ukrývá nejen umělecké poklady, ale také ostatky významných osobností. Podnět k založení kostela svatého Tomáše, vyslovil v roce 1285 český král Václav II. Tento velice nábožensky založený panovník se tak zasloužil o vznik nádherného gotického kostela v centru Malé Strany. Již z dáli můžete zahlédnout vysokou kostelní věž, jednu z hlavních dominant kostela. Kostel svatého Tomáše patří, společně s nedalekým chrámem  svatého Mikuláše, mezi významné barokní památky Malé Strany.</string>
+    <string name="place38text">Pokud byste hledali v nějakých historických pramenech či dokumentech, objevili byste několik možných názvů, které náměstí neslo. Každé období přinášelo nová a nová pojmenování, jako například Rynk, Malostranský rynek, Štěpánské náměstí. Také se mu říkalo náměstí Maršála Radeckého či Radeckého náměstí. A naposledy tedy Malostranské náměstí. A co se zde vlastně v minulosti odehrávalo? Náměstí dříve sloužilo jako tržní prostor i pro různé společenské události. Kromě trhů zde také stávala šibenice či pranýř.</string>
+    <string name="place39text">Za další příjemnou procházku se dnes vydáme opět do centra hlavního města, tentokráte do jedné z nejznámějších pražských ulic. Nejprve se ulice, o které si dnes budeme povídat, jmenovala Sporrengasse, česky tedy Ostruhová. Nebudeme vás dále napínat, jedná se o známou Nerudovu ulici. Tak tedy vzhůru do bydliště slavného českého spisovatele a básníka, Jana Nerudy. Poznejme tak krásy ulice, vedoucí z Malostranského náměstí až k branám Pražského hradu, ulice, jež byla v minulosti součástí Královské cesty.</string>
+    <string name="place40text">Pokud vás při procházkách centrem Prahy zavedou vaše nohy až do míst Malostranského náměstí, neměli byste opomenout jednu z tamějších památek. Dnes se zastavíme a seznámíme se se Sloupem Nejsvětější Trojice, který se tyčí do výšky nedaleko chrámu sv. Mikuláše. Pojďme se tedy seznámit s důvody vzniku a s tím, co tento sloup zobrazuje.</string>
+    <string name="place41text">Chrám sv. Mikuláše (správně kostel sv. Mikuláše) s přilehlou skupinou budov je dominantou celého Malostranského náměstí. Chrám patří mezi naše i evropské nejkrásnější barokní stavby jejichž principem jsou vzájemně se protínající elipsoidy. Loď chrámu je vyzdobena četnými pozdně barokními sochami, hlavně od Ignáce Františka Platzera. Asi nejvýznamnější součástí výzdoby chrámu jsou obrazy Karla Škréty – obraz Ukřižování z poloviny 17. století, umístění v kapli sv. Barbory a pašijový cyklus v emporách kostela.Po roce 1773, kdy byl zrušen jezuitský řád, kostel sv. Mikuláše se stal hlavním farním chrámem Malé Strany.
+
+</string>
+    <string name="place42text">Kostel (někdy také nazýván chrám) Panny Marie Vítězné na Malé Straně může na některé z vás působit jako zcela obvyklá sakrální stavba. Opak je ale pravdou. Jedná se o mimořádně významnou architektonickou památku, která za svými zdmi střeží světově uctívanou sošku Pražského Jezulátka.</string>
+    <string name="place43text">Klášter založil český král Vladislav II., roku 1169 jako první johanitskou komendu v Čechách. Roku 1989 u nás obnovil svoji činnost rytířský řád johanitů a právě kostel Panny Marie pod řetězem je součástí obrovského stavebního komplexu tohoto řádu v Praze, nacházející se mezi ulicemi Saská, Lázeňská a mezi Velkopřevorským náměstím. Patronem řádu je svatý Jan Křitel, od toho je odvozen název johanité.</string>
+    <string name="place44text">Stejně tak jako ostatní významné památky, tak i právě tento mlýn velmi často měnil svůj název. Docházelo k tomu díky častým změnám majitelů, kteří dveřmi mlýny procházeli a zase odcházeli. Proto se v historických pramenech dozvídáme, že koncem patnáctého století nesl název Sovovský mlýn, poté byl přejmenován na Severínovký, dále na Kosořský. V druhé polovině se opět navrátil k původnímu jménu Sovovský a od roku 1850 byl známý jako mlýn Odkolkovký.</string>
+
+    <!-- Places Tour4 -->
+    <string name="place45">Kampa</string>
+    <string name="place46">Malostranské mostecké věže</string>
+    <string name="place47">Karlův most</string>
+    <string name="place48">Staroměstská mostecká věž</string>
+    <string name="place49">Křižovnické náměstí</string>
+    <string name="place50">Kostel sv. Františka z Assisi</string>
+    <string name="place51">Klementinum</string>
+    <string name="place52">Novotného Lávka a  Muzeum Bedřicha Smetany</string>
+    <string name="place53">Krannerova kašna</string>
+    <string name="place54">Národní divadlo</string>
+    <string name="place45text">Co že je ta Kampa ? Kampa je nejtajemnější ostrov v centru Prahy. Odedávna zde bydleli vodníci, rusalky a jiná strašidla. Také je to místo, kde bydleli Holanovic děti a jejich chobotničky. Kampa je místo, které musíte navštívit.
+
+Prestižní cestovatelský server označil Kampu jako druhý nejkrásnější městský ostrov světa. „Tato oblast města je tak ohromující, že vypadá skoro neskutečně“</string>
+    <string name="place46text">Při procházce po Karlově mostě si jistě každý z vás povšimne dvou věží, díky kterým projdeme na druhou stranu řeky. Každá z nich je odlišně vysoká, a nenesou mnoho společných architektonických prvků. Projděme tedy společně branou, nacházející se mezi věžemi, a tvořící tak vstup z Karlova mostu do ulic Malé Strany. Je to cesta, po které právě v naší minulosti jezdily královské korunovační průvody.</string>
+    <string name="place47text">Karlův most, který po staletí střeží cestu mezi Starým Městem a Malou Stranou, je bezpochyby jedním z nejnavštěvovanějších míst Prahy. Zajímavá vás, proč tomu tak je? Lidé jej vyhledávají pro unikátní architektonické prvky, druzí touží odhalit historická tajemství nejstaršího pražského mostu, vrátit se zpět do dob honosných královských průvodů nebo spatřit jedinečnou galerii těch nejlepších sochařských děl.</string>
+    <string name="place48text">Karlův most, který po staletí střeží cestu mezi Starým Městem a Malou Stranou, je bezpochyby jedním z nejnavštěvovanějších míst Prahy. Zajímavá vás, proč tomu tak je? Lidé jej vyhledávají pro unikátní architektonické prvky, druzí touží odhalit historická tajemství nejstaršího pražského mostu, vrátit se zpět do dob honosných královských průvodů nebo spatřit jedinečnou galerii těch nejlepších sochařských děl.</string>
+    <string name="place49text">Vydáme-li se na procházku po Královské cestě, dovede nás tato cesta také ke Křížovnickému náměstí v Praze. A kde že se vlastně toto náměstí rozprostírá? Náměstí je z jedné strany ohraničené Klementinema ze strany druhé Karlovým mostem. Další dominantou je však kostel svatého Františka z Assisi, a my se s ním nyní seznámíme.</string>
+    <string name="place50text">Vydáme-li se na procházku po Královské cestě, dovede nás tato cesta také ke Křížovnickému náměstí v Praze. A kde že se vlastně toto náměstí rozprostírá? Náměstí je z jedné strany ohraničené Klementinema ze strany druhé Karlovým mostem. Další dominantou je však kostel svatého Františka z Assisi, a my se s ním nyní seznámíme.</string>
+    <string name="place51text">Nedaleko Karlova Mostu na trase Královské cesty se rozprostírá rozsáhlý a v minulosti velice významný komplex  staveb. Jedná se o pražské Klementinum, které je v současnosti považováno, díky své rozloze, za jeden z největších stavebních komplexů v Evropě. Prohlídka vůbec nejstarší a největší jezuitské koleje v Čechách může začít.</string>
+    <string name="place52text">Novotného Lávka se nachází v blízkosti Karlova mostu, přímo na samém konci Smetanova nábřeží. Kolem roku 1396 v těchto místech stávala skupina deseti mlýnů. V roce 1489 zde byla postavena dřevěná staroměstská vodárenská věž, která byla o několik let později přestavěna na současnou kamennou.  Po nějaké době byly mlýny přestavěny na budovy, které známe dnes. Jedná se o Karlovy lázně, Klub techniků – dříve budova Československé vědeckotechnické společnosti. Zajímavostí je, že pod těmito budovami protéká řeka Vltava. Již zmíněné Smetanovo muzeum vzniklo právě z bývalé staroměstské vodárny. Název získala podle mlynáře Karla Novotného, který se zasloužil o zřízení železné lávky.</string>
+    <string name="place53text">Praha – Jdete procházkou po Smetanově nábřeží a najednou na vás z proluky vykoukne podivná stavba šípovitého rázu. Jdete blíže a zjistíte, že stojíte vlastně u kašny. Je to Krannerova kašna. Pojďme si tuto netypickou a pro svůj vzhled jedinečnou stavbu představit.</string>
+    <string name="place54text">Praha, často označovaná jako kolébka evropské kultury neměla vždycky na růžích ustláno, co se alespoň výstavby Národního divadla týče. Třebaže myšlenka samotného divadla, které by hrálo česky se zrodila už v 80. letech 18. století, zápas o její realizaci vzplanul až o 60 let později, krátce po porážce buržoazně demokratické revoluce v roce 1848.  V roce 1850 se utvořil Sbor pro zřízení českého Národního divadla v Praze, řídící orgán velké národní akce, jehož prvním předsedou se stal český myslitel a obrozenec František Palacký.</string>
 </resources>

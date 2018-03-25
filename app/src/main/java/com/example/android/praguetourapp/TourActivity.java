@@ -46,6 +46,9 @@ public class TourActivity extends AppCompatActivity {
             case 2:
                 viewPager.setCurrentItem(2);
                 break;
+            case 3:
+                viewPager.setCurrentItem(3);
+                break;
         }
     }
 }

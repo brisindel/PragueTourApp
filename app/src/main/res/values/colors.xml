@@ -3,13 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <!-- Main color for rating bar -->
+
+    <!-- ViewPager background color  -->
     <color name="yellow">#FD8E09</color>
-
-    <!-- Second color for rating bar -->
     <color name="white">#FFFFFF</color>
+    <color name="green">#00b300</color>
 
-    <!-- Gray color for background rating bar -->
+    <!-- Gray color for background CitySlide -->
     <color name="gray">#907e7e7e</color>
     <color name="gradient_start">#007e7e7e</color>
     <color name="gradient_end">#7e7e7e</color>

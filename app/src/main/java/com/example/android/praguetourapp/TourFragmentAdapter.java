@@ -35,8 +35,10 @@ public class TourFragmentAdapter extends FragmentPagerAdapter {
             return new Tour1Fragment();
         } else if (position == 1) {
             return new Tour2Fragment();
-        } else {
+        } else if (position == 2) {
             return new Tour3Fragment();
+        } else {
+            return new Tour4Fragment();
         }
     }
 
@@ -45,7 +47,7 @@ public class TourFragmentAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -54,8 +56,10 @@ public class TourFragmentAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.tour1);
         } else if (position == 1) {
             return mContext.getString(R.string.tour2);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.tour3);
+        } else {
+            return mContext.getString(R.string.tour4);
         }
     }
 }

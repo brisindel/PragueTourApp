@@ -1,6 +1,7 @@
 package com.example.android.praguetourapp;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,41 +27,40 @@ public class Tour3Fragment extends android.support.v4.app.Fragment {
         View rootView = inflater.inflate(R.layout.tour_lv, container, false);
 
         // Create a list of words
-        final ArrayList<Places> places = new ArrayList<Places>();
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
-        places.add(new Places(R.drawable.wenceslassquare, R.string.place1, R.string.place1text));
+        final ArrayList<Places> placesListTour3 = new ArrayList<Places>();
+        placesListTour3.add(new Places(R.drawable.valdstejnskypalac, R.string.place35, R.string.place35text));
+        placesListTour3.add(new Places(R.drawable.palacovezahrady, R.string.place36, R.string.place36text));
+        placesListTour3.add(new Places(R.drawable.kostelsvtomase, R.string.place37, R.string.place37text));
+        placesListTour3.add(new Places(R.drawable.malostranskenamesti, R.string.place38, R.string.place38text));
+        placesListTour3.add(new Places(R.drawable.nerudova, R.string.place39, R.string.place39text));
+        placesListTour3.add(new Places(R.drawable.sloupnejsvetejsitrojice, R.string.place40, R.string.place40text));
+        placesListTour3.add(new Places(R.drawable.chramsvatehomikulase, R.string.place41, R.string.place41text));
+        placesListTour3.add(new Places(R.drawable.kostelpanymarievitezne, R.string.place42, R.string.place42text));
+        placesListTour3.add(new Places(R.drawable.pannymariepodretezem, R.string.place43, R.string.place43text));
+        placesListTour3.add(new Places(R.drawable.sovovymlyny, R.string.place44, R.string.place44text));
 
-
-        // Create an {@link PlacesAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s. The
         // adapter knows how to create list items for each item in the list.
-        PlacesAdapter adapter = new PlacesAdapter(getActivity(), places, R.color.yellow);
+        PlacesAdapter adapter = new PlacesAdapter(getActivity(), placesListTour3, R.color.gray);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        // tour_item.xml layout file.
+        ListView listViewTour3 = (ListView) rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link PlacesAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
-        listView.setAdapter(adapter);
+        // {@link ListView} will display list items for each {@link Places} in the list.
+        listViewTour3.setAdapter(adapter);
 
-        // Set a click listener to play the audio when the list item is clicked on
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listViewTour3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                // Release the media player if it currently exists because we are about to
-                // play a different sound file
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // Create a new object intent (parse on position)
+                Intent intent = new Intent(Tour3Fragment.this.getActivity(), PlaceDetailActivity.class);
 
-                // Get the {@link Word} object at the given position the user clicked on
-                Places places1 = places.get(position);
-
-
+                Places selectedPlace = placesListTour3.get(position);
+                intent.putExtra("places", selectedPlace);
+                startActivity(intent);
             }
         });
 
